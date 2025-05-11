@@ -58,8 +58,7 @@ def place_order(menu):
         order = update_order(order, menu_selection, menu_items)
     
         # TODO: Ask the customer if they would like to order anything else
-        # TODO: Let the customer know if they should type 'n' or 'N' to quit
-        keep_ordering = input("Would you like to keep ordering? (N)o to quit: ")
+        keep_ordering = input("Would you like to keep ordering? (N) to quit: ")
 
         # TODO: Write a conditional statement that checks the user's input
         # TODO: The conditional statement should check for 'n' or 'N'
