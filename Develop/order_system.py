@@ -63,7 +63,7 @@ def place_order(menu):
 
         # TODO: Write a conditional statement that checks the user's input
         # TODO: The conditional statement should check for 'n' or 'N'
-        if keep_ordering.lower() == 'n':
+        if keep_ordering.lower() == "n":
 
             # TODO: Write a print statement that thanks the customer for their order if done
             print("Thank you for your order.")
@@ -160,7 +160,7 @@ def print_itemized_receipt(receipt):
         item_name = item["Item name"]
         price = item["Price"]
         quantity = item["Quantity"]
-        
+
         # TODO: Print the receipt line using the print_receipt_line function
         # TODO: Send the item name, price, and quantity as separate arguments
         print_receipt_line(item_name, price, quantity)
